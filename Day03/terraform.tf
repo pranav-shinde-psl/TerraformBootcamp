@@ -3,12 +3,12 @@
 // When initialize this configuration, Terraform will download all this providers
 terraform {
 
-  # cloud {
-  #   organization = "PSL-Terraform-Bootcamp"
-  #   workspaces {
-  #     name = "tfc-ec2-creation-assignment"
-  #   }
-  # }
+  cloud {
+    organization = "PSL-Terraform-Bootcamp"
+    workspaces {
+      name = "tfc-ec2-creation-assignment"
+    }
+  }
   required_providers {
     //A AWS provider is a plugin that Terraform uses to create and manage resources.
     aws = {
